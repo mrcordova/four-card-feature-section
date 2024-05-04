@@ -27,9 +27,22 @@ body {
     margin: 0;
 }
 
-.intro>p + h1 {
+
+.intro>.sub-head {
     color: var(--very-dark-blue);
 }
+
+.intro>h1 {
+    color: var(--very-dark-blue);
+    margin: 0;
+}
+
+.intro>.para {
+    color: var(--grayish-blue);
+
+}
+
+
 
 main {
     display: flex;
