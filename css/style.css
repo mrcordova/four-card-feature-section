@@ -24,7 +24,7 @@ body {
 
 .card {
     border-radius: 10px;
-    box-shadow: 1px 0px 3px 1px;
+    box-shadow: 0 20px 30px 0 var(--grayish-blue);
     max-inline-size: clamp(19.94em, calc(19.94em + 11.5vw), 34.6em);
 }
 
