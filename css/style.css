@@ -24,10 +24,15 @@ body {
 
 .card {
     border-radius: 10px;
-    box-shadow: 0 20px 30px 0 var(--grayish-blue);
+    box-shadow: 0 10px 30px 0 var(--grayish-blue);
     max-inline-size: clamp(19.94em, calc(19.94em + 11.5vw), 34.6em);
+    max-block-size: clamp(16em, calc(16em + 11.5vw), 31.6em);
+    margin-bottom: 20px;
+    padding: 20px;
 }
-
+.card-h2 {
+    color: var(--very-dark-blue);
+}
 .intro {
     text-align: center;
     margin: 0;
