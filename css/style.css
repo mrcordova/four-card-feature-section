@@ -22,6 +22,12 @@ body {
     padding: 1em;
 }
 
+.card {
+    border-radius: 10px;
+    box-shadow: 1px 0px 3px 1px;
+    max-inline-size: clamp(19.94em, calc(19.94em + 11.5vw), 34.6em);
+}
+
 .intro {
     text-align: center;
     margin: 0;
