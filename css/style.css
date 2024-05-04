@@ -30,6 +30,23 @@ body {
     margin-bottom: 20px;
     padding: 20px;
 }
+.card.cyan-border {
+    border-top: 0.30em solid var(--cyan);
+}
+.card.red-border {
+    border-top: 0.30em solid var(--red);
+}
+.card.orange-border {
+    border-top: 0.30em solid var(--orange);
+}
+.card.blue-border {
+    border-top: 0.30em solid var(--blue);
+}
+.card-para {
+    font-size: clamp(1em, calc(1em +1.5vw), 4em);
+    color: var(--grayish-blue);
+}
+
 .card-h2 {
     color: var(--very-dark-blue);
 }
