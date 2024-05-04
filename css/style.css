@@ -25,6 +25,7 @@ body {
 .intro {
     text-align: center;
     margin: 0;
+    margin-bottom: 3em;
     max-inline-size: clamp(19.94em, calc(19.94em + 11.5vw ),34.6em);
 }
 
