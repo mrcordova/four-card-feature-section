@@ -25,23 +25,26 @@ body {
 .intro {
     text-align: center;
     margin: 0;
+    max-inline-size: clamp(19.94em, calc(19.94em + 11.5vw ),34.6em);
 }
 
 
 .intro>.sub-head {
     color: var(--very-dark-blue);
-    font-size: clamp(1.5em, calc(1.25em + 1.5vw), 4em);
+    font-size: clamp(1.5em, calc(1.25em + 1.5vw), 2em);
+    margin-bottom: 0.33em;
 }
 
 .intro>.head {
     color: var(--very-dark-blue);
-    font-size: clamp(1.25em, calc(1.25em + 1.5vw), 4em);
+    font-size: clamp(1.25em, calc(1.25em + 1.5vw), 2em);
     margin: 0;
 }
 
 .intro>.para {
     color: var(--grayish-blue);
-
+    font-size: clamp(1em, calc(1em +1.5vw), 4em);
+    padding: 0.33em;
 }
 
 
