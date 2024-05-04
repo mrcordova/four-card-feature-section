@@ -19,6 +19,7 @@ body {
     align-items: center;
     font-size: var(--body-font-size);
     background-color: var(--very-light-gray);
+    padding: 1em;
 }
 
 .intro {
