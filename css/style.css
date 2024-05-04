@@ -30,10 +30,12 @@ body {
 
 .intro>.sub-head {
     color: var(--very-dark-blue);
+    font-size: clamp(1.5em, calc(1.25em + 1.5vw), 4em);
 }
 
 .intro>.head {
     color: var(--very-dark-blue);
+    font-size: clamp(1.25em, calc(1.25em + 1.5vw), 4em);
     margin: 0;
 }
 
