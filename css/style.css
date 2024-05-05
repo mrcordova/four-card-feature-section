@@ -32,6 +32,11 @@ body {
     margin-bottom: 20px;
     padding: 20px;
 }
+
+.cards-section {
+    display: flex;
+    flex-direction: column;
+}
 .card.cyan-border {
     border-top: 0.30em solid var(--cyan);
 }
@@ -90,7 +95,18 @@ main {
     align-items: center;
 }
 
+.mid-cards {
+    display: flex;
+    flex-direction: column;
+}
 
+
+
+@media(min-width: 50.6em ) {
+   .cards-section {
+    flex-direction: row;
+   }
+}
 
 
 .poppins-extralight {
