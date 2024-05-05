@@ -23,6 +23,8 @@ body {
 }
 
 .card {
+    display: flex;
+    flex-direction: column;
     border-radius: 10px;
     box-shadow: 0 10px 30px 0 var(--grayish-blue);
     max-inline-size: clamp(19.94em, calc(19.94em + 11.5vw), 34.6em);
@@ -45,6 +47,7 @@ body {
 .card-para {
     font-size: clamp(1em, calc(1em +1.5vw), 4em);
     color: var(--grayish-blue);
+    
 }
 
 .card-h2 {
@@ -75,8 +78,10 @@ body {
     font-size: clamp(1em, calc(1em +1.5vw), 4em);
     padding: 0.33em;
 }
-
-
+img {
+    display: flex;
+    align-self: flex-end;
+}
 
 main {
     display: flex;
