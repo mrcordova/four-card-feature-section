@@ -47,7 +47,7 @@ body {
 .card-para {
     font-size: clamp(1em, calc(1em +1.5vw), 4em);
     color: var(--grayish-blue);
-    
+    padding-bottom: 2.5em;
 }
 
 .card-h2 {
